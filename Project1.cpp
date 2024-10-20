@@ -113,6 +113,7 @@ GLfloat* matV(GLfloat r, GLfloat g, GLfloat b, GLfloat w) {
     GLfloat v[] = { r,g,b,w };
     return v;
 }
+// initialize texture files
 void InitTexture() {
 
     unsigned char* data1;
